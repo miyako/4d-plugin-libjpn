@@ -8,7 +8,7 @@
 #include <Cocoa/Cocoa.h>
 #endif
 
-void InitPlugin_mcab()
+void _LIBMECAB InitPlugin_mcab()
 {
 #if VERSIONWIN	
 	// write initialisation code here...
@@ -38,7 +38,7 @@ void InitPlugin_mcab()
 #endif
 }
 
-void _mecab(sLONG_PTR *pResult, PackagePtr pParams)
+void _LIBMECAB _mecab(sLONG_PTR *pResult, PackagePtr pParams)
 {
 	C_TEXT Param1;
 	ARRAY_TEXT Param2;

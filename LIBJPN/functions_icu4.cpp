@@ -197,6 +197,9 @@ void ICU_Transform_text(sLONG_PTR *pResult, PackagePtr pParams)
 		
 		if(textLength >= textCapacity){
 			
+			//the original text is lost sometimes?
+			memcpy(&text[0], (const void *)sourceText.getUTF16StringPtr(), (sourceText.getUTF16Length())*sizeof(PA_Unichar)); 
+			
 			textCapacity = textLength + 1;
 			text.resize(textCapacity);
 			textLength = sourceText.getUTF16Length();

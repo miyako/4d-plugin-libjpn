@@ -3,7 +3,7 @@
 #include <errno.h>
 #include "iconv.h"
 
-void _iconv(sLONG_PTR *pResult, PackagePtr pParams)
+void _LIBICONV _iconv(sLONG_PTR *pResult, PackagePtr pParams)
 {
 	C_TEXT Param1;
 	C_TEXT Param2;
