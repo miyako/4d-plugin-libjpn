@@ -25,13 +25,13 @@ void _LIBMECAB InitPlugin_mcab()
 	
 	_wputenv_s(L"MECABRC", mecabrcPath);
 #else
+	
 	NSBundle *b = [NSBundle bundleWithIdentifier:@"com.4D.4DPlugin.miyako.LIBJPN"];
+	
 	if(b){
-#if PA_SMALLENDIAN		
+		
 		NSString *mecabrcPath = [[[b executablePath]stringByDeletingLastPathComponent]stringByAppendingPathComponent:@"mecabrc"];
-#else
-		NSString *mecabrcPath = [[[b executablePath]stringByDeletingLastPathComponent]stringByAppendingPathComponent:@"mecabrc-ppc"];
-#endif		
+		
 		setenv("MECABRC",(const char *)[mecabrcPath UTF8String], 1);
 	}
 	

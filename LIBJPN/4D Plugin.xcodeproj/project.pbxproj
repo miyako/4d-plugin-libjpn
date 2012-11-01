@@ -36,11 +36,6 @@
 		D132E9A315B9ACAC0015FCEF /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99815B9ACAC0015FCEF /* libiconv.2.dylib */; };
 		D132E9A415B9ACAC0015FCEF /* libicudata.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99915B9ACAC0015FCEF /* libicudata.48.1.dylib */; };
 		D132E9A515B9ACAC0015FCEF /* libicui18n.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99A15B9ACAC0015FCEF /* libicui18n.48.1.dylib */; };
-		D132E9A615B9ACAC0015FCEF /* libicuio.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99B15B9ACAC0015FCEF /* libicuio.48.1.dylib */; };
-		D132E9A715B9ACAC0015FCEF /* libicule.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99C15B9ACAC0015FCEF /* libicule.48.1.dylib */; };
-		D132E9A815B9ACAC0015FCEF /* libiculx.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99D15B9ACAC0015FCEF /* libiculx.48.1.dylib */; };
-		D132E9A915B9ACAC0015FCEF /* libicutest.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99E15B9ACAC0015FCEF /* libicutest.48.1.dylib */; };
-		D132E9AA15B9ACAC0015FCEF /* libicutu.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E99F15B9ACAC0015FCEF /* libicutu.48.1.dylib */; };
 		D132E9AB15B9ACAC0015FCEF /* libicuuc.48.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E9A015B9ACAC0015FCEF /* libicuuc.48.1.dylib */; };
 		D132E9AC15B9ACAC0015FCEF /* libmecab.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D132E9A115B9ACAC0015FCEF /* libmecab.1.dylib */; };
 		D1392DD513582164004911A5 /* C_PICTURE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1392DD313582164004911A5 /* C_PICTURE.cpp */; };
@@ -99,11 +94,6 @@
 		D132E99815B9ACAC0015FCEF /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libiconv.2.dylib; sourceTree = "<group>"; };
 		D132E99915B9ACAC0015FCEF /* libicudata.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicudata.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libicudata.48.1.dylib; sourceTree = "<group>"; };
 		D132E99A15B9ACAC0015FCEF /* libicui18n.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicui18n.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libicui18n.48.1.dylib; sourceTree = "<group>"; };
-		D132E99B15B9ACAC0015FCEF /* libicuio.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuio.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libicuio.48.1.dylib; sourceTree = "<group>"; };
-		D132E99C15B9ACAC0015FCEF /* libicule.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicule.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libicule.48.1.dylib; sourceTree = "<group>"; };
-		D132E99D15B9ACAC0015FCEF /* libiculx.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiculx.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libiculx.48.1.dylib; sourceTree = "<group>"; };
-		D132E99E15B9ACAC0015FCEF /* libicutest.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicutest.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libicutest.48.1.dylib; sourceTree = "<group>"; };
-		D132E99F15B9ACAC0015FCEF /* libicutu.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicutu.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libicutu.48.1.dylib; sourceTree = "<group>"; };
 		D132E9A015B9ACAC0015FCEF /* libicuuc.48.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuuc.48.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libicuuc.48.1.dylib; sourceTree = "<group>"; };
 		D132E9A115B9ACAC0015FCEF /* libmecab.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmecab.1.dylib; path = sample.4dbase/Plugins/LIBJPN.bundle/Contents/MacOS/libmecab.1.dylib; sourceTree = "<group>"; };
 		D1392DD313582164004911A5 /* C_PICTURE.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = C_PICTURE.cpp; path = Classes/C_PICTURE.cpp; sourceTree = "<group>"; };
@@ -141,11 +131,6 @@
 				D132E9A315B9ACAC0015FCEF /* libiconv.2.dylib in Frameworks */,
 				D132E9A415B9ACAC0015FCEF /* libicudata.48.1.dylib in Frameworks */,
 				D132E9A515B9ACAC0015FCEF /* libicui18n.48.1.dylib in Frameworks */,
-				D132E9A615B9ACAC0015FCEF /* libicuio.48.1.dylib in Frameworks */,
-				D132E9A715B9ACAC0015FCEF /* libicule.48.1.dylib in Frameworks */,
-				D132E9A815B9ACAC0015FCEF /* libiculx.48.1.dylib in Frameworks */,
-				D132E9A915B9ACAC0015FCEF /* libicutest.48.1.dylib in Frameworks */,
-				D132E9AA15B9ACAC0015FCEF /* libicutu.48.1.dylib in Frameworks */,
 				D132E9AB15B9ACAC0015FCEF /* libicuuc.48.1.dylib in Frameworks */,
 				D132E9AC15B9ACAC0015FCEF /* libmecab.1.dylib in Frameworks */,
 			);
@@ -172,11 +157,6 @@
 				D132E99815B9ACAC0015FCEF /* libiconv.2.dylib */,
 				D132E99915B9ACAC0015FCEF /* libicudata.48.1.dylib */,
 				D132E99A15B9ACAC0015FCEF /* libicui18n.48.1.dylib */,
-				D132E99B15B9ACAC0015FCEF /* libicuio.48.1.dylib */,
-				D132E99C15B9ACAC0015FCEF /* libicule.48.1.dylib */,
-				D132E99D15B9ACAC0015FCEF /* libiculx.48.1.dylib */,
-				D132E99E15B9ACAC0015FCEF /* libicutest.48.1.dylib */,
-				D132E99F15B9ACAC0015FCEF /* libicutu.48.1.dylib */,
 				D132E9A015B9ACAC0015FCEF /* libicuuc.48.1.dylib */,
 				D132E9A115B9ACAC0015FCEF /* libmecab.1.dylib */,
 				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
@@ -546,10 +526,8 @@
 		42D60B440A9DDBC8002ABB42 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
@@ -564,10 +542,8 @@
 		42D60B450A9DDBC8002ABB42 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
@@ -582,10 +558,8 @@
 		42D60B460A9DDBC8002ABB42 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = 4.0;

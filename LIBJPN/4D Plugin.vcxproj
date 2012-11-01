@@ -34,7 +34,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>Windows7.1SDK</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -100,23 +100,28 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <CallingConvention>StdCall</CallingConvention>
       <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>4600</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).4DX</OutputFile>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <ModuleDefinitionFile>.\4D Plugin API\4DPluginAPI.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
       <EntryPointSymbol>
       </EntryPointSymbol>
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>lib\windows</AdditionalLibraryDirectories>
       <AdditionalDependencies>icudt.lib;icuin.lib;icuio.lib;icule.lib;iculx.lib;icutu.lib;icuuc.lib;libiconv.2.lib;libmecab.lib;testplug.libkernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+=======
+      <AdditionalLibraryDirectories>lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+>>>>>>> Removed PPC support (to reduce binary size)
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>4D Plugin API\Classes;4D Plugin API;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>4D Plugin API\Classes;4D Plugin API;include;include\iconv;include\icu;include\mecab;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_WIN64;WIN32;_DEBUG;_WINDOWS;_USRDLL;MY4DPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -128,27 +133,41 @@
       <CompileAs>Default</CompileAs>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).4DX</OutputFile>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <ModuleDefinitionFile>.\4D Plugin API\4DPluginAPI.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
+<<<<<<< HEAD
       <AdditionalDependencies>icudt.lib;icuin.lib;icuio.lib;icule.lib;iculx.lib;icutu.lib;icuuc.lib;libiconv.2.lib;libmecab.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+=======
+      <AdditionalLibraryDirectories>lib\windows64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>icuuc.lib;icuin.lib;libmecab.lib;libiconv.2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> Removed PPC support (to reduce binary size)
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>include\iconv;include\icu;include\mecab;4D Plugin API\Classes;4D Plugin API;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>4D Plugin API\Classes;4D Plugin API;include;include\iconv;include\icu;include\mecab;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> Removed PPC support (to reduce binary size)
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MY4DPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+<<<<<<< HEAD
       <CallingConvention>StdCall</CallingConvention>
       <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+=======
+      <CallingConvention>Cdecl</CallingConvention>
+      <DisableSpecificWarnings>4800;4005;4819</DisableSpecificWarnings>
+>>>>>>> Removed PPC support (to reduce binary size)
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).4DX</OutputFile>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <ModuleDefinitionFile>.\4D Plugin API\4DPluginAPI.def</ModuleDefinitionFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -157,30 +176,45 @@
       <TargetMachine>MachineX86</TargetMachine>
       <EntryPointSymbol>
       </EntryPointSymbol>
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>lib\windows</AdditionalLibraryDirectories>
       <AdditionalDependencies>icudt.lib;icuin.lib;icuio.lib;icule.lib;iculx.lib;icutu.lib;icuuc.lib;libiconv.2.lib;libmecab.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+=======
+      <AdditionalLibraryDirectories>lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>icuuc.lib;icuin.lib;libmecab.lib;libiconv.2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> Removed PPC support (to reduce binary size)
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>include\iconv;include\icu;include\mecab;4D Plugin API\Classes;4D Plugin API;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>4D Plugin API\Classes;4D Plugin API;include;include\iconv;include\icu;include\mecab;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> Removed PPC support (to reduce binary size)
       <PreprocessorDefinitions>_WIN64;WIN32;NDEBUG;_WINDOWS;_USRDLL;MY4DPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <CallingConvention>StdCall</CallingConvention>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DisableSpecificWarnings>4800;4005;4819;4267</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)$(ProjectName).4DX</OutputFile>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
       <ModuleDefinitionFile>.\4D Plugin API\4DPluginAPI.def</ModuleDefinitionFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
+<<<<<<< HEAD
       <AdditionalDependencies>icudt.lib;icuin.lib;icuio.lib;icule.lib;iculx.lib;icutu.lib;icuuc.lib;libiconv.2.lib;libmecab.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>lib\windows64</AdditionalLibraryDirectories>
+=======
+      <AdditionalLibraryDirectories>lib\windows64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>icuuc.lib;icuin.lib;libmecab.lib;libiconv.2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> Removed PPC support (to reduce binary size)
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -199,6 +233,7 @@
     <ClCompile Include="4D Plugin API\Classes\C_TIME.cpp" />
     <ClCompile Include="4DPlugin.cpp" />
     <ClCompile Include="4D Plugin API\4DPluginAPI.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="functions_icnv.cpp">
       <CallingConvention Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Cdecl</CallingConvention>
     </ClCompile>
@@ -207,6 +242,12 @@
     <ClCompile Include="functions_mcab.cpp">
       <CallingConvention Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Cdecl</CallingConvention>
     </ClCompile>
+=======
+    <ClCompile Include="functions_icnv.cpp" />
+    <ClCompile Include="functions_icu4.cpp" />
+    <ClCompile Include="functions_jis8.cpp" />
+    <ClCompile Include="functions_mcab.cpp" />
+>>>>>>> Removed PPC support (to reduce binary size)
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="4D Plugin API\Classes\ARRAY_BOOLEAN.h" />

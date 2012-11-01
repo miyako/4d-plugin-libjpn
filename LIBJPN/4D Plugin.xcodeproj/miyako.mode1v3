@@ -209,12 +209,9 @@
 			<key>ChosenToolbarItems</key>
 			<array>
 				<string>active-combo-popup</string>
-				<string>active-buildstyle-popup</string>
 				<string>action</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
 				<string>debugger-enable-breakpoints</string>
-				<string>build</string>
-				<string>clean-target</string>
 				<string>build-and-go</string>
 				<string>com.apple.ide.PBXToolbarStopButton</string>
 				<string>get-info</string>
@@ -257,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>201</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -283,7 +280,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 0}, {201, 445}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -299,7 +296,7 @@
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>201</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>307 308 788 504 0 0 1440 878 </string>
@@ -330,12 +327,20 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
+<<<<<<< HEAD
 										<string>D196E46315BF329800428801</string>
 										<key>history</key>
 										<array>
 											<string>D114C50E15BCD79700E39AE8</string>
 											<string>D196E44F15BF30D300428801</string>
 											<string>D196E45015BF30D300428801</string>
+=======
+										<string>D1FDED9C1642710100593F35</string>
+										<key>history</key>
+										<array>
+											<string>D114C50E15BCD79700E39AE8</string>
+											<string>D1B80E3515BD0D10009073A8</string>
+>>>>>>> Removed PPC support (to reduce binary size)
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -393,9 +398,15 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
+<<<<<<< HEAD
 				<string>D196E45215BF30D300428801</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>D196E45315BF30D300428801</string>
+=======
+				<string>D1FDED9D1642710100593F35</string>
+				<string>1CE0B1FE06471DED0097A5F4</string>
+				<string>D1FDED9E1642710100593F35</string>
+>>>>>>> Removed PPC support (to reduce binary size)
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -534,7 +545,11 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>D114C51415BCD79700E39AE8</string>
+<<<<<<< HEAD
 		<string>/Users/miyako/Documents/4D/Plugins/public/4d-plugin-libjpn/LIBJPN/4D Plugin.xcodeproj</string>
+=======
+		<string>/Users/miyako/github-miyako/4d-plugin-libjpn/LIBJPN/4D Plugin.xcodeproj</string>
+>>>>>>> Removed PPC support (to reduce binary size)
 	</array>
 	<key>WindowString</key>
 	<string>307 308 788 504 0 0 1440 878 </string>
@@ -614,7 +629,11 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D114C51415BCD79700E39AE8</string>
+<<<<<<< HEAD
 				<string>D196E45715BF30D300428801</string>
+=======
+				<string>D1FDED9F1642710100593F35</string>
+>>>>>>> Removed PPC support (to reduce binary size)
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
