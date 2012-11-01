@@ -168,7 +168,7 @@
 		</dict>
 	</array>
 	<key>BundlePath</key>
-	<string>/Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Resources</string>
+	<string>/Xcode3/Library/PrivateFrameworks/DevToolsInterface.framework/Resources</string>
 	<key>Description</key>
 	<string>DefaultDescriptionKey</string>
 	<key>DockingSystemVisible</key>
@@ -178,7 +178,7 @@
 	<key>FavBarConfig</key>
 	<dict>
 		<key>PBXProjectModuleGUID</key>
-		<string>D114C51315BCD79700E39AE8</string>
+		<string>D1FC32181642AF9D001FE28A</string>
 		<key>XCBarModuleItemNames</key>
 		<dict/>
 		<key>XCBarModuleItems</key>
@@ -266,16 +266,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>089C166AFE841209C02AAC07</string>
-								<string>08FB77ADFE841716C02AAC07</string>
-								<string>089C167CFE841241C02AAC07</string>
-								<string>1C37FBAC04509CD000000102</string>
+								<string>089C1671FE841209C02AAC07</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -299,7 +295,7 @@
 							<real>201</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>307 308 788 504 0 0 1440 878 </string>
+						<string>252 125 788 504 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -315,7 +311,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>4DPlugin.cpp</string>
+								<string>MyNewFile14.java</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,25 +319,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>4DPlugin.cpp</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-<<<<<<< HEAD
-										<string>D196E46315BF329800428801</string>
-										<key>history</key>
-										<array>
-											<string>D114C50E15BCD79700E39AE8</string>
-											<string>D196E44F15BF30D300428801</string>
-											<string>D196E45015BF30D300428801</string>
-=======
-										<string>D1FDED9C1642710100593F35</string>
-										<key>history</key>
-										<array>
-											<string>D114C50E15BCD79700E39AE8</string>
-											<string>D1B80E3515BD0D10009073A8</string>
->>>>>>> Removed PPC support (to reduce binary size)
-										</array>
+										<string>MyNewFile14.java</string>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -352,14 +330,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 232}}</string>
+								<string>{{0, 0}, {580, 277}}</string>
 								<key>RubberWindowFrame</key>
-								<string>307 308 788 504 0 0 1440 878 </string>
+								<string>252 125 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>232pt</string>
+							<string>277pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -372,14 +350,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 237}, {580, 226}}</string>
+								<string>{{0, 282}, {580, 181}}</string>
 								<key>RubberWindowFrame</key>
-								<string>307 308 788 504 0 0 1440 878 </string>
+								<string>252 125 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>226pt</string>
+							<string>181pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -398,15 +376,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-<<<<<<< HEAD
-				<string>D196E45215BF30D300428801</string>
+				<string>D1FC32161642AF9D001FE28A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D196E45315BF30D300428801</string>
-=======
-				<string>D1FDED9D1642710100593F35</string>
-				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D1FDED9E1642710100593F35</string>
->>>>>>> Removed PPC support (to reduce binary size)
+				<string>D1FC32171642AF9D001FE28A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -523,7 +495,7 @@
 	<key>ShelfIsVisible</key>
 	<false/>
 	<key>SourceDescription</key>
-	<string>file at '/Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Resources/XCPerspectivesSpecificationMode1.xcperspec'</string>
+	<string>file at '/Xcode3/Library/PrivateFrameworks/DevToolsInterface.framework/Resources/XCPerspectivesSpecificationMode1.xcperspec'</string>
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
@@ -544,15 +516,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D114C51415BCD79700E39AE8</string>
-<<<<<<< HEAD
-		<string>/Users/miyako/Documents/4D/Plugins/public/4d-plugin-libjpn/LIBJPN/4D Plugin.xcodeproj</string>
-=======
+		<string>D1FC32191642AF9D001FE28A</string>
 		<string>/Users/miyako/github-miyako/4d-plugin-libjpn/LIBJPN/4D Plugin.xcodeproj</string>
->>>>>>> Removed PPC support (to reduce binary size)
 	</array>
 	<key>WindowString</key>
-	<string>307 308 788 504 0 0 1440 878 </string>
+	<string>252 125 788 504 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -582,7 +550,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {500, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 288 500 500 0 0 1440 878 </string>
+								<string>349 275 500 500 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -606,7 +574,7 @@
 								<key>Frame</key>
 								<string>{{0, 223}, {500, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 288 500 500 0 0 1440 878 </string>
+								<string>349 275 500 500 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -628,12 +596,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>D114C51415BCD79700E39AE8</string>
-<<<<<<< HEAD
-				<string>D196E45715BF30D300428801</string>
-=======
-				<string>D1FDED9F1642710100593F35</string>
->>>>>>> Removed PPC support (to reduce binary size)
+				<string>D1FC32191642AF9D001FE28A</string>
+				<string>D1FC321A1642AF9D001FE28A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -642,9 +606,9 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>347 288 500 500 0 0 1440 878 </string>
+			<string>349 275 500 500 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
-			<string>D114C51415BCD79700E39AE8</string>
+			<string>D1FC32191642AF9D001FE28A</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>
