@@ -295,7 +295,7 @@
 							<real>201</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>252 125 788 504 0 0 1440 878 </string>
+						<string>316 357 788 504 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,14 +330,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 251}}</string>
+								<string>{{0, 0}, {580, 242}}</string>
 								<key>RubberWindowFrame</key>
-								<string>252 125 788 504 0 0 1440 878 </string>
+								<string>316 357 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>251pt</string>
+							<string>242pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -350,14 +350,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 256}, {580, 207}}</string>
+								<string>{{0, 247}, {580, 216}}</string>
 								<key>RubberWindowFrame</key>
-								<string>252 125 788 504 0 0 1440 878 </string>
+								<string>316 357 788 504 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>207pt</string>
+							<string>216pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -376,9 +376,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D1E8B63816A91D54004D5C54</string>
+				<string>D164186C16F7436200377EA3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D1E8B63916A91D54004D5C54</string>
+				<string>D164186D16F7436200377EA3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -520,7 +520,7 @@
 		<string>/Users/miyako/github-miyako/4d-plugin-libjpn/LIBJPN/4D Plugin.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>252 125 788 504 0 0 1440 878 </string>
+	<string>316 357 788 504 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -597,7 +597,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D1FC32191642AF9D001FE28A</string>
-				<string>D1E8B63A16A91D54004D5C54</string>
+				<string>D164186E16F7436200377EA3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
