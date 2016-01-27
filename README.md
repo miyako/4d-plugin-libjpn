@@ -7,4 +7,4 @@ Collection of useful Unicode/Japanese functions based on the iconv, ICU and MeCa
 
 | carbon | cocoa | win32 | win64 |
 |:------:|:-----:|:---------:|:---------:|
-|10.6|10.8|⭕️|⭕️|
+|10.6|🚫|⭕️|⭕️|
