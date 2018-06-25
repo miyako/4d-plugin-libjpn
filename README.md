@@ -3,39 +3,13 @@
 
 Collection of useful Unicode/Japanese functions based on the iconv, ICU and MeCab libraries.
 
-##Platform
+### Platform
 
 | carbon | cocoa | win32 | win64 |
 |:------:|:-----:|:---------:|:---------:|
-|🆗|🚫|🆗|🆗|
+|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />||<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />|
 
-Commands
----
-
-```c
-// --- ICU
-ICU_GET_ENCODING_LIST
-ICU_Get_good_encodings
-ICU_Get_best_encoding
-ICU_Normalize_text
-ICU_Transform_text
-ICU_Get_error_text
-ICU_Convert_to_text
-ICU_Convert_from_text
-
-// --- mecab
-mecab
-
-// --- iconv
-iconv
-
-// --- JIS
-JIS_Convert_to_text
-JIS_Convert_from_text
-```
-
-Examples
----
+### Examples
 
 * iconv
 
