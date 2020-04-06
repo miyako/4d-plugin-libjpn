@@ -3,6 +3,10 @@
 
 Collection of useful Unicode/Japanese functions based on the iconv, ICU and MeCab libraries.
 
+![obsolete-word-black-frame-word-obsolete-word-black-frame-d-rendering-123942590](https://user-images.githubusercontent.com/1725068/78463940-29122280-771e-11ea-8be8-a7830725403e.jpg)
+
+Use [d-plugin-text-convert](https://github.com/miyako/4d-plugin-text-convert) or [4d-plugin-mecab-v2](https://github.com/miyako/4d-plugin-mecab-v2)
+
 ### Platform
 
 | carbon | cocoa | win32 | win64 |
